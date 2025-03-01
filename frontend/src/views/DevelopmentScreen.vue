@@ -31,6 +31,7 @@ import Footer from '../components/Footer.vue';
           <h2 class="text-xl font-semibold mb-4">Pantallas</h2>
           <router-link to="/templateScreen1" class="text-xl text-terracota hover:underline">Template Screen 1</router-link>
           <router-link to="/templateScreen2" class="text-xl text-terracota hover:underline">Template Screen 2</router-link>
+          <router-link to="/hoteles" class="text-xl text-terracota hover:underline">Hotel List</router-link>
         </div>
         <div class="card bg-white p-6 rounded-lg shadow-lg flex flex-col gap-2">
           <h2 class="text-xl font-semibold mb-4">Componentes</h2>
