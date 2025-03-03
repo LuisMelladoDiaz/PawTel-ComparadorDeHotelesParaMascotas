@@ -73,3 +73,22 @@ npm run dev
 ```
 
 4. Abre tu navegador en la dirección `http://localhost:3000` para ver la aplicación.
+
+### Poner en marcha el frontend como PWA
+
+Si despliegas el proyecto con "npm run dev", el proyecto no se ejecutará como una PWA instalable sino que se mantendrá como una SPA. Para desplegar la PWA necesitarás ejecutar lo siguientes comandos teniendo npm instalado:
+
+Primero será necesario construirla:
+
+```bash
+npm run build
+```
+
+
+Y paro ejecutarla debes usar:
+
+```bash
+npm run preview
+```
+
+Para comprobar que efectivamente estás ejecutando la app puedes probar a descargarla, viendo que funciona también de manera local; o puedes comprobar en las herramientas de desarrollador, que en el apartado de aplicación te sale el archivo de manifiesto de la aplicación.
