@@ -5,8 +5,8 @@
       <div class="menu-icon md:hidden flex flex-col items-end" @click="toggleMenu">
         <i class="fas fa-bars text-terracota text-3xl"></i>
       </div>
-
-      <router-link to="/home">
+      
+      <router-link to="/">
         <img src="../assets/pawtel-logo.png" alt="Logo" class="logo h-[50px]" />
       </router-link>
 

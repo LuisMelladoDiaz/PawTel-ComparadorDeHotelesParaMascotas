@@ -26,5 +26,6 @@ defineProps({
 <style scoped>
 button {
   font-family: var(--font-complementario);
+  margin: 10px;
 }
 </style>
